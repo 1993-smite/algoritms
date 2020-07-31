@@ -2,16 +2,27 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Test v-bind:txt="msg" />
+    <Books/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Test from './components/Test.vue'
+import Books from './components/Books.vue'
 
 export default {
   name: 'App',
+  data: function(){
+      return {
+        msg: 'Hello, dude'
+      }
+  },
   components: {
-    HelloWorld
+    HelloWorld,
+    Test,
+    Books
   }
 }
 </script>
