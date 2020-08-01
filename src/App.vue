@@ -4,6 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Test v-bind:txt="msg" />
     <Books/>
+    <FakeApi/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Test from './components/Test.vue'
 import Books from './components/Books.vue'
+import FakeApi from './components/FakeApi.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
   components: {
     HelloWorld,
     Test,
-    Books
+    Books,
+    FakeApi
   }
 }
 </script>
