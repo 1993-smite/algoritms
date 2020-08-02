@@ -5,6 +5,7 @@
     <Test v-bind:txt="msg" />
     <Books/>
     <FakeApi/>
+    <Table v-bind:titles="table.titles" v-bind:table="table.list"/>
   </div>
 </template>
 
@@ -13,19 +14,41 @@ import HelloWorld from './components/HelloWorld.vue'
 import Test from './components/Test.vue'
 import Books from './components/Books.vue'
 import FakeApi from './components/FakeApi.vue'
+import Table from './components/Table.vue'
 
 export default {
   name: 'App',
   data: function(){
       return {
-        msg: 'Hello, dude'
+        msg: 'Hello, dude',
+        table: {
+          titles: ['Id','LastName', 'Name'],
+          list: [
+            {
+              Id: 1,
+              LastName: "Nevsky",
+              Name: "Alex"
+            },
+            {
+              Id: 2,
+              LastName: "Romanov",
+              Name: "Petr"
+            },
+            {
+              Id: 3,
+              LastName: "Stalin",
+              Name: "Iosif"
+            }
+          ]
+        }
       }
   },
   components: {
     HelloWorld,
     Test,
     Books,
-    FakeApi
+    FakeApi,
+    Table
   }
 }
 </script>

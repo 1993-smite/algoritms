@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <fieldset>
+        <legend>
+            Fake Api
+        </legend>
         <h3>
             Books
         </h3>
@@ -9,7 +12,7 @@
             {{book.Name}}
             <hr/>
         </div>
-    </div>
+    </fieldset>
 </template>
 
 <script>

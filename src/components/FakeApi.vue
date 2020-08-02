@@ -1,9 +1,8 @@
 <template>
-    <div>
-        <hr/>
-        <h3>
+    <fieldset>
+        <legend>
             Fake Api
-        </h3>
+        </legend>
         <select v-model="checkCount">
             <option 
                 v-for="(count, index) in counts" 
@@ -16,7 +15,7 @@
             <b>{{data.id}}</b>. {{data.title}}
             <hr/>
         </div>
-    </div>
+    </fieldset>
 </template>
 
 <script>
