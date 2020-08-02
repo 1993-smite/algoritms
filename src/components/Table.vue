@@ -3,7 +3,7 @@
         <legend>
             Table
         </legend>
-        <table class="ttable">
+        <table class="ttable" v-show="isTableTr">
             <thead class="thead">
                 <tr>
                     <td v-for="(title, index) in titles" v-bind:key="index">
@@ -19,19 +19,26 @@
                 </tr>
             </tbody>
         </table>
+        <span v-show="!isTableTr">нет записей</span>
     </fieldset>
 </template>
 
 <script>
 export default {
     name: 'Table',
-    data: function() {
-        return {
-        }
-    },
     props: {
         titles: Array,
         table: Array
+    },
+    data: function() {
+        return {
+            
+        }
+    },
+    computed: {
+        isTableTr: function() {
+            return this.table.length > 0;
+        }
     }
 }
 </script>
