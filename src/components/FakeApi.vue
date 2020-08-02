@@ -23,7 +23,6 @@
 export default {
     name: 'FakeApi',
     data: function(){
-        this.get();
         return {
             counts: [4,6,8,12,20],
             checkCount: 4,
@@ -50,6 +49,9 @@ export default {
                         });
             
         }
+    },
+    mounted(){
+        this.get();
     }
 }
 </script>
