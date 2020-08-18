@@ -1,0 +1,11 @@
+C:\projects\algoritms\bin\Debug\netcoreapp2.1\algoritms.deps.json
+C:\projects\algoritms\bin\Debug\netcoreapp2.1\algoritms.runtimeconfig.json
+C:\projects\algoritms\bin\Debug\netcoreapp2.1\algoritms.runtimeconfig.dev.json
+C:\projects\algoritms\bin\Debug\netcoreapp2.1\algoritms.dll
+C:\projects\algoritms\bin\Debug\netcoreapp2.1\algoritms.pdb
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.csprojAssemblyReference.cache
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.csproj.CoreCompileInputs.cache
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.AssemblyInfoInputs.cache
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.AssemblyInfo.cs
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.dll
+C:\projects\algoritms\obj\Debug\netcoreapp2.1\algoritms.pdb
